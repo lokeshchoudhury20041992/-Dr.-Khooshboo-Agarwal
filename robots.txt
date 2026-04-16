@@ -1,0 +1,85 @@
+# =============================================================
+# robots.txt - Dr. Khooshboo Agarwal | Gynecologist Kolkata
+# Configured for maximum Google + AI search engine crawling
+# =============================================================
+
+# ---- Allow all standard search engines ----
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# ---- Google Search ----
+User-agent: Googlebot
+Allow: /
+
+# ---- Google Image Search ----
+User-agent: Googlebot-Image
+Allow: /
+
+# ---- Google AI (SearchGenerativeExperience, AI Overviews) ----
+User-agent: Google-Extended
+Allow: /
+
+# ---- Bing & Microsoft Copilot ----
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# ---- OpenAI / ChatGPT ----
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ---- Anthropic / Claude ----
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ---- Perplexity AI ----
+User-agent: PerplexityBot
+Allow: /
+
+# ---- You.com ----
+User-agent: YouBot
+Allow: /
+
+# ---- Cohere AI ----
+User-agent: cohere-ai
+Allow: /
+
+# ---- Common AI Research Crawlers ----
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# ---- DuckDuckGo ----
+User-agent: DuckDuckBot
+Allow: /
+
+# ---- Yandex ----
+User-agent: YandexBot
+Allow: /
+
+# ---- Sitemap Location ----
+Sitemap: https://www.drkhooshbooagarwal.com/sitemap.xml
+
+# NOTE: Replace drkhooshbooagarwal.com with your actual domain.
