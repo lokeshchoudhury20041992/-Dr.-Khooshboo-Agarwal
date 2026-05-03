@@ -24,7 +24,7 @@ export default function DiagnosticHysteroscopy() {
       <ServicePageTemplate
         hero={{
           tag: 'Surgeries',
-          heading: 'Diagnostic & Operative Hysteroscopy',
+          heading: 'Diagnostic and Operative Hysteroscopy',
           subtitle: 'A highly precise, zero-incision procedure to look directly inside your uterus to diagnose and treat bleeding abnormalities or fertility issues.',
           title: 'Hysteroscopy',
         }}

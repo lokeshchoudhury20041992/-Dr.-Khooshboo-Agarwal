@@ -5,7 +5,7 @@ export default function Endometriosis() {
   return (
     <>
       <Helmet>
-        <title>Endometriosis Treatment in Kolkata | Diagnosis & Pain Relief</title>
+        <title>Endometriosis Treatment in Kolkata | Diagnosis and Pain Relief</title>
         <meta name="description" content="Expert endometriosis diagnosis and treatment by Dr. Khooshboo Agarwal. Comprehensive care for severe pelvic pain, painful periods, and related infertility." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/gynecology/endometriosis" />
         <script type="application/ld+json">

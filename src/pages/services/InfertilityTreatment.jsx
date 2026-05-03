@@ -5,14 +5,14 @@ export default function InfertilityTreatment() {
   return (
     <>
       <Helmet>
-        <title>Infertility Treatment & IVF in Kolkata | Dr. Khooshboo Agarwal</title>
+        <title>Infertility Treatment and IVF in Kolkata | Dr. Khooshboo Agarwal</title>
         <meta name="description" content="Infertility specialist in Kolkata. Dr. Khooshboo Agarwal offers IUI, IVF and ART at IRM Kolkata. Serving patients from Saltlake, Bidhannagar, Dumdum and Laketown." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/services/infertility-treatment" />
       </Helmet>
       <ServicePageTemplate
         hero={{
-          tag: 'Infertility & ART',
-          heading: 'Infertility Treatment & ART in Kolkata',
+          tag: 'Infertility and ART',
+          heading: 'Infertility Treatment and ART in Kolkata',
           subtitle: 'The journey to parenthood is not always straightforward. Dr. Khooshboo Agarwal walks with you every step of the way — with expertise, honesty, and hope.',
           title: 'Infertility Treatment',
         }}
@@ -25,7 +25,7 @@ export default function InfertilityTreatment() {
           highlights: [
             { icon: '🔬', title: 'IRM Kolkata Trained', desc: 'Advanced fertility training at one of India\'s top ART centres.' },
             { icon: '👨‍👩‍👧', title: 'Couple-Centred Care', desc: 'Infertility evaluation for both partners — male and female factors investigated equally.' },
-            { icon: '💉', title: 'IUI & IVF Services', desc: 'From basic ovulation induction to full ART cycles, tailored to your diagnosis.' },
+            { icon: '💉', title: 'IUI and IVF Services', desc: 'From basic ovulation induction to full ART cycles, tailored to your diagnosis.' },
             { icon: '💬', title: 'Emotional Support', desc: 'Fertility treatment is emotionally intense. Dr. Khooshboo ensures you feel supported at every step.' },
           ],
         }}

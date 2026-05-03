@@ -25,7 +25,7 @@ export const doctorImages = {
   surgical: {
     src: new URL('../assets/best-gynecologist-saltlake-bidhannagar-dr-khooshboo-agarwal-surgery.jpg', import.meta.url).href,
     alt: 'Dr. Khooshboo Agarwal in surgical scrubs – best gynecologist in Saltlake, Bidhannagar and Laketown Kolkata',
-    title: 'Dr. Khooshboo Agarwal | Best Gynecologist Saltlake & Bidhannagar',
+    title: 'Dr. Khooshboo Agarwal | Best Gynecologist Saltlake and Bidhannagar',
     width: 760,
     height: 1280,
   },
@@ -43,7 +43,7 @@ export const doctorImages = {
 
   // ── AWARD / CONFERENCE ─────────────────────────────────────
   // Filename: dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg
-  // Usage: About page – Awards & Recognition section, Home trust section
+  // Usage: About page – Awards and Recognition section, Home trust section
   award: {
     src: new URL('../assets/dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg', import.meta.url).href,
     alt: 'Dr. Khooshboo Agarwal, best gynecologist near me in Kolkata, receiving recognition at the ENHANCE Advance USG medical conference',
@@ -57,7 +57,7 @@ export const doctorImages = {
   // Usage: About page – Credentials / Education section
   certificate: {
     src: new URL('../assets/dr-khooshboo-agarwal-ms-obstetrics-gynaecology-degree-certificate-ssuhs.jpg', import.meta.url).href,
-    alt: 'Official MS Obstetrics & Gynaecology degree certificate of Dr. Khooshboo Agarwal from Srimanta Sankaradeva University of Health Sciences – qualified gynecologist in Bidhannagar, Kolkata',
+    alt: 'Official MS Obstetrics and Gynaecology degree certificate of Dr. Khooshboo Agarwal from Srimanta Sankaradeva University of Health Sciences – qualified gynecologist in Bidhannagar, Kolkata',
     title: 'Dr. Khooshboo Agarwal MS Degree | Best Gynecologist in Bidhannagar Kolkata',
     width: 760,
     height: 1013,

@@ -71,7 +71,7 @@ export default function HubPage() {
           <div className="highlight-box">
             <h2>Need Expert Guidance?</h2>
             <p>Schedule a personalized consultation with Dr. Khooshboo Agarwal to discuss your specific health needs.</p>
-            <Link to="/contact" className="btn-white">Book Your Consultation</Link>
+            <Link to="/contact" className="btn-white">Contact Us</Link>
           </div>
         </div>
       </section>

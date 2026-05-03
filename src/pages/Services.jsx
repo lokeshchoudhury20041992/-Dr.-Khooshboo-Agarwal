@@ -53,8 +53,8 @@ export default function Services() {
         <div className="container">
           <div className="highlight-box">
             <h2>Not Sure Which Service You Need?</h2>
-            <p>Book a consultation and Dr. Khooshboo Agarwal will help you understand the right care for your situation.</p>
-            <a href="https://maatritvaivffertility.com/appointment" target="_blank" rel="noopener noreferrer" className="btn-white">Book Appointment</a>
+            <p>Get in touch and Dr. Khooshboo Agarwal will help you understand the right care for your situation.</p>
+            <Link to="/contact" className="btn-white">Contact Us</Link>
           </div>
         </div>
       </section>

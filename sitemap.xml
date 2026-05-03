@@ -40,6 +40,50 @@
     <priority>0.9</priority>
   </url>
 
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics/lauhati.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics/smile-alive.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics/shapoorji.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics/suraksha.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics/rb-laketown.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.drkhooshbooagarwal.com/clinics/rb-kankurgachi.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- ============ SERVICE PAGES ============ -->
   <url>
     <loc>https://www.drkhooshbooagarwal.com/high-risk-pregnancy.html</loc>

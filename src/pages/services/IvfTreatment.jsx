@@ -5,7 +5,7 @@ export default function IvfTreatment() {
   return (
     <>
       <Helmet>
-        <title>Best IVF Treatment in Kolkata | Success Rates & Process</title>
+        <title>Best IVF Treatment in Kolkata | Success Rates and Process</title>
         <meta name="description" content="Comprehensive IVF treatment in Kolkata by Dr. Khooshboo Agarwal. Step-by-step guidance, cost factors, and success rates. Book your fertility consultation." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/fertility/ivf-treatment" />
         <script type="application/ld+json">
@@ -24,7 +24,7 @@ export default function IvfTreatment() {
       </Helmet>
       <ServicePageTemplate
         hero={{
-          tag: 'Fertility & IVF',
+          tag: 'Fertility and IVF',
           heading: 'IVF Treatment (In Vitro Fertilization) in Kolkata',
           subtitle: 'Advanced reproductive technologies with compassionate care. Discover our evidence-based approach to building your family.',
           title: 'IVF Treatment',
@@ -51,7 +51,7 @@ export default function IvfTreatment() {
             items: [
               { title: '1. Ovarian Stimulation', desc: 'Using injectable hormones for 8-14 days to stimulate the ovaries to produce multiple eggs instead of the usual single egg.' },
               { title: '2. Egg Retrieval', desc: 'A minor surgical procedure done under light sedation where eggs are retrieved using an ultrasound-guided needle.' },
-              { title: '3. Sperm Collection & Fertilization', desc: 'Sperm is collected and combined with eggs in the lab. For severe male-factor infertility, ICSI (injecting a single sperm directly into the egg) is used.' },
+              { title: '3. Sperm Collection and Fertilization', desc: 'Sperm is collected and combined with eggs in the lab. For severe male-factor infertility, ICSI (injecting a single sperm directly into the egg) is used.' },
               { title: '4. Embryo Culture', desc: 'Fertilized eggs develop into embryos over 3 to 5 days under strict laboratory observation.' },
               { title: '5. Embryo Transfer', desc: 'The best quality embryo(s) are transferred into the uterus via a thin catheter. This is a painless procedure similar to a Pap smear.' },
             ],
@@ -64,7 +64,7 @@ export default function IvfTreatment() {
           { question: 'Are there risks associated with IVF?', answer: 'Risks include Ovarian Hyperstimulation Syndrome (OHSS), multiple pregnancies (if more than one embryo is transferred), and ectopic pregnancy. Dr. Khooshboo monitors stimulation cycles closely to mitigate all manageable risks.' },
         ]}
         relatedServices={[
-          { slug: 'infertility-treatment', icon: '🌸', title: 'General Infertility & IUI', shortDesc: 'Initial workups and basic fertility interventions.' },
+          { slug: 'infertility-treatment', icon: '🌸', title: 'General Infertility and IUI', shortDesc: 'Initial workups and basic fertility interventions.' },
           { slug: 'pcos-treatment', icon: '🔬', title: 'PCOS Management', shortDesc: 'PCOS is a leading cause of female infertility.' },
         ]}
       />

@@ -5,13 +5,13 @@ export default function MenopauseManagement() {
   return (
     <>
       <Helmet>
-        <title>Menopause Management & HRT in Kolkata | Gynecologist</title>
+        <title>Menopause Management and HRT in Kolkata | Gynecologist</title>
         <meta name="description" content="Expert menopause management in Kolkata. Find relief from hot flashes, mood swings, and vaginal dryness with Dr. Khooshboo Agarwal's customized HRT and lifestyle plans." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/gynecology/menopause-management" />
       </Helmet>
       <ServicePageTemplate
         hero={{
-          tag: 'Gynecology & Aging',
+          tag: 'Gynecology and Aging',
           heading: 'Menopause Management: Navigating the Change',
           subtitle: 'Menopause is a natural transition, but the symptoms do not have to disrupt your life. Discover safe, effective management strategies tailored to your body.',
           title: 'Menopause Care',

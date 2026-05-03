@@ -1,8 +1,8 @@
 // Categories metadata
 export const categories = {
   'gynecology': { title: 'Gynecology Services', desc: 'Expert management for PCOS, infections, and reproductive health.' },
-  'pregnancy-care': { title: 'Pregnancy & Maternity Care', desc: 'Comprehensive care from preconception to delivery and beyond.' },
-  'fertility': { title: 'Fertility & IVF', desc: 'Advanced reproductive technologies to help you build your family.' },
+  'pregnancy-care': { title: 'Pregnancy and Maternity Care', desc: 'Comprehensive care from preconception to delivery and beyond.' },
+  'fertility': { title: 'Fertility and IVF', desc: 'Advanced reproductive technologies to help you build your family.' },
   'surgeries': { title: 'Advanced Surgeries', desc: 'Minimally invasive laparoscopic and hysteroscopic procedures.' }
 };
 
@@ -60,7 +60,7 @@ export const services = [
     slug: 'pcos-diet',
     categoryId: 'gynecology',
     icon: '🥦',
-    title: 'PCOS Diet & Lifestyle',
+    title: 'PCOS Diet and Lifestyle',
     shortDesc: 'Reverse insulin resistance and balance hormones through targeted nutrition.',
     color: 'teal',
   },
@@ -116,7 +116,7 @@ export const services = [
     slug: 'vaginal-infections',
     categoryId: 'gynecology',
     icon: '🩺',
-    title: 'Vaginal Infections & Itching',
+    title: 'Vaginal Infections and Itching',
     shortDesc: 'Diagnosis and treatment of all common vaginal infections.',
     color: 'teal',
   },
@@ -217,13 +217,13 @@ export const hospitals = [
 // Doctor profile
 export const doctorProfile = {
   name: 'Dr. Khooshboo Agarwal',
-  title: 'MS (Obs & Gynae), MBBS',
-  designation: 'Obstetrician, Gynecologist & Infertility Specialist',
+  title: 'MS (Obs and Gynae), MBBS',
+  designation: 'Obstetrician, Gynecologist and Infertility Specialist',
   experience: '8+ Years',
   city: 'Kolkata',
   education: [
     { degree: 'MBBS', institute: 'Assam Medical College, Dibrugarh', icon: '🎓' },
-    { degree: 'MS (Obstetrics & Gynaecology)', institute: 'Gauhati Medical College, GMCH, Gauhati (Assam)', icon: '🏅' },
-    { degree: 'Superspeciality training in Infertility & ART procedures', institute: 'Institute of Reproductive Medicine (IRM), Kolkata', icon: '🔬' },
+    { degree: 'MS (Obstetrics and Gynaecology)', institute: 'Gauhati Medical College, GMCH, Gauhati (Assam)', icon: '🏅' },
+    { degree: 'Superspeciality training in Infertility and ART procedures', institute: 'Institute of Reproductive Medicine (IRM), Kolkata', icon: '🔬' },
   ],
 }

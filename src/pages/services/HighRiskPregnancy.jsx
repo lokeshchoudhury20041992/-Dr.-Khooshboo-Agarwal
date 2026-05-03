@@ -58,7 +58,7 @@ export default function HighRiskPregnancy() {
             type: 'grid',
             items: [
               { icon: '🩸', title: 'Gestational Diabetes (GDM)', desc: 'Managing maternal blood sugar through diet, lifestyle, and insulin to prevent fetal overgrowth and birth complications.' },
-              { icon: '❤️', title: 'Preeclampsia & Hypertension', desc: 'Strict blood pressure management to prevent eclampsia, organ damage, and premature delivery.' },
+              { icon: '❤️', title: 'Preeclampsia and Hypertension', desc: 'Strict blood pressure management to prevent eclampsia, organ damage, and premature delivery.' },
               { icon: '👶', title: 'Multiple Gestations', desc: 'Twin and triplet pregnancies require specialized surveillance for growth restriction and preterm labor.' },
               { icon: '📉', title: 'Fetal Growth Restriction (IUGR)', desc: 'Regular Doppler scans to monitor placental blood flow and ensure the baby is receiving adequate nutrition.' },
               { icon: '🧬', title: 'Thyroid Disorders', desc: 'Careful titration of thyroid medication to support healthy fetal brain development.' },

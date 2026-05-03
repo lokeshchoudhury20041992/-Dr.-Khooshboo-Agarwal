@@ -5,7 +5,7 @@ export default function TubalLigation() {
   return (
     <>
       <Helmet>
-        <title>Tubal Ligation Side Effects & Reversal | Comprehensive Guide</title>
+        <title>Tubal Ligation Side Effects and Reversal | Comprehensive Guide</title>
         <meta name="description" content="Considering tubal ligation in Kolkata? Understand the procedure, side effects, and options for reversal or IVF with Dr. Khooshboo Agarwal." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/surgeries/tubal-ligation" />
         <script type="application/ld+json">
@@ -25,8 +25,8 @@ export default function TubalLigation() {
       </Helmet>
       <ServicePageTemplate
         hero={{
-          tag: 'Surgeries & Contraception',
-          heading: 'Tubal Ligation (Female Sterilization): Procedure & Myths',
+          tag: 'Surgeries and Contraception',
+          heading: 'Tubal Ligation (Female Sterilization): Procedure and Myths',
           subtitle: 'Making the decision for permanent birth control is highly personal. Understand the facts, myths, and highly effective surgical options available.',
           title: 'Tubal Ligation',
         }}

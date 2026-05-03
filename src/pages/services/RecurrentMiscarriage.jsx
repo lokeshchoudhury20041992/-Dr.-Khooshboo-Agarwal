@@ -11,7 +11,7 @@ export default function RecurrentMiscarriage() {
       </Helmet>
       <ServicePageTemplate
         hero={{
-          tag: 'Pregnancy Care & Fertility',
+          tag: 'Pregnancy Care and Fertility',
           heading: 'Recurrent Miscarriage Evaluation',
           subtitle: 'Experiencing a miscarriage is heartbreaking. Experiencing it repeatedly is devastating. Let us systematically uncover the "why" and build a plan for a healthy full-term pregnancy.',
           title: 'Recurrent Miscarriage',

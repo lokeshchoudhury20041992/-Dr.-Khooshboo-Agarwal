@@ -12,7 +12,7 @@ export default function UterinePolyps() {
       <ServicePageTemplate
         hero={{
           tag: 'Gynecology',
-          heading: 'Uterine Polyps: Diagnosis & Removal',
+          heading: 'Uterine Polyps: Diagnosis and Removal',
           subtitle: 'Overgrowths of tissue in the uterine cavity can cause severe bleeding and infertility. We offer precise diagnosis and zero-incision removal.',
           title: 'Uterine Polyps',
         }}

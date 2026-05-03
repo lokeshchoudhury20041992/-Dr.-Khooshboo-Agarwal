@@ -18,7 +18,7 @@ export default function ServicePageTemplate({ seo, hero, intro, sections, faqs, 
           <h1 id="service-hero-heading">{hero.heading}</h1>
           <p style={{ maxWidth: '580px', margin: '16px auto 0', fontSize: '1.1rem' }}>{hero.subtitle}</p>
           <Link to="/contact" className="btn btn-primary btn-lg" style={{ marginTop: '28px', display: 'inline-flex' }}>
-            📅 Book Consultation
+            Contact Us
           </Link>
         </div>
       </header>
@@ -32,11 +32,11 @@ export default function ServicePageTemplate({ seo, hero, intro, sections, faqs, 
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
               {intro.highlights.map((h, i) => (
-                <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start', padding: '14px 16px', background: 'var(--gray-50)', borderRadius: 'var(--radius-sm)', borderLeft: '3px solid var(--rose-primary)' }}>
-                  <span style={{ fontSize: '1.3rem', flexShrink: 0 }}>{h.icon}</span>
+                <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start', padding: '14px 16px', background: 'var(--ivory)', borderRadius: 'var(--radius-sm)', borderLeft: '2px solid var(--gold)' }}>
+                  <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 700, color: 'var(--gold)', flexShrink: 0, lineHeight: 1 }}>{String(i + 1).padStart(2, '0')}</span>
                   <div>
-                    <strong style={{ fontSize: '0.95rem', color: 'var(--gray-900)' }}>{h.title}</strong>
-                    <p style={{ fontSize: '0.87rem', margin: '4px 0 0' }}>{h.desc}</p>
+                    <strong style={{ fontSize: '0.95rem', color: 'var(--forest)' }}>{h.title}</strong>
+                    <p style={{ fontSize: '0.87rem', margin: '4px 0 0', color: 'var(--gray-500)' }}>{h.desc}</p>
                   </div>
                 </div>
               ))}
@@ -56,7 +56,7 @@ export default function ServicePageTemplate({ seo, hero, intro, sections, faqs, 
               <div className="grid-3">
                 {sec.items.map((item, i) => (
                   <div className="card" key={i}>
-                    <div className="card-icon" aria-hidden="true">{item.icon}</div>
+                    <div className="card-icon" aria-hidden="true" style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', fontWeight: 700, color: 'var(--gold)' }}>{String(i + 1).padStart(2, '0')}</div>
                     <h3>{item.title}</h3>
                     <p>{item.desc}</p>
                   </div>
@@ -103,7 +103,7 @@ export default function ServicePageTemplate({ seo, hero, intro, sections, faqs, 
             <div className="grid-3">
               {relatedServices.map((s) => (
                 <Link to={`/services/${s.slug}`} key={s.slug} className="card service-card" style={{ textDecoration: 'none', display: 'block' }}>
-                  <div className="card-icon" aria-hidden="true">{s.icon}</div>
+                  <div className="card-icon" aria-hidden="true" style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', fontWeight: 700, color: 'var(--gold)' }}>→</div>
                   <h3>{s.title}</h3>
                   <p>{s.shortDesc}</p>
                   <span className="read-more" style={{ marginTop: '12px' }}>Learn more →</span>
@@ -118,8 +118,8 @@ export default function ServicePageTemplate({ seo, hero, intro, sections, faqs, 
         <div className="container">
           <div className="highlight-box">
             <h2>{cta?.heading || 'Ready to Get the Right Care?'}</h2>
-            <p>{cta?.sub || 'Book a consultation with Dr. Khooshboo Agarwal at a hospital nearest to you in Kolkata.'}</p>
-            <a href="https://maatritvaivffertility.com/appointment" target="_blank" rel="noopener noreferrer" className="btn-white">📅 Book Appointment</a>
+            <p>{cta?.sub || 'Get in touch with Dr. Khooshboo Agarwal at a hospital nearest to you in Kolkata.'}</p>
+            <Link to="/contact" className="btn-white">Contact Us</Link>
           </div>
         </div>
       </section>

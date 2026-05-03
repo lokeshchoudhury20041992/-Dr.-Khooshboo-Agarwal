@@ -5,12 +5,12 @@ export default function PainlessDelivery() {
   return (
     <>
       <Helmet>
-        <title>Painless Delivery in Kolkata | Dr. Khooshboo Agarwal | Normal & Epidural</title>
+        <title>Painless Delivery in Kolkata | Dr. Khooshboo Agarwal | Normal and Epidural</title>
         <meta name="description" content="Safe, comfortable childbirth with Dr. Khooshboo Agarwal in Kolkata. Expert in normal delivery and epidural (painless) delivery across ILS Saltlake, ILS Nagerbazar, and Care Hospital." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/services/painless-delivery" />
       </Helmet>
       <ServicePageTemplate
-        hero={{ tag: 'Childbirth', heading: 'Normal & Painless Delivery in Kolkata', subtitle: 'Your birth experience matters. Dr. Khooshboo Agarwal prepares you thoroughly, keeps you informed, and is with you every step of the way.', title: 'Painless Delivery' }}
+        hero={{ tag: 'Childbirth', heading: 'Normal and Painless Delivery in Kolkata', subtitle: 'Your birth experience matters. Dr. Khooshboo Agarwal prepares you thoroughly, keeps you informed, and is with you every step of the way.', title: 'Painless Delivery' }}
         intro={{
           heading: 'Every Mother Deserves a Safe, Supported Birth',
           paragraphs: [

@@ -10,7 +10,7 @@ export default function VaginalInfections() {
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/services/vaginal-infections" />
       </Helmet>
       <ServicePageTemplate
-        hero={{ tag: 'Women\'s Health', heading: 'Vaginal Infection Diagnosis & Treatment in Kolkata', subtitle: 'Itching, unusual discharge, or persistent discomfort down there? Do not ignore it. These symptoms are treatable — and Dr. Khooshboo Agarwal can help.', title: 'Vaginal Infections' }}
+        hero={{ tag: 'Women\'s Health', heading: 'Vaginal Infection Diagnosis and Treatment in Kolkata', subtitle: 'Itching, unusual discharge, or persistent discomfort down there? Do not ignore it. These symptoms are treatable — and Dr. Khooshboo Agarwal can help.', title: 'Vaginal Infections' }}
         intro={{
           heading: 'Common, Treatable, and Nothing to Be Ashamed Of',
           paragraphs: [
@@ -21,7 +21,7 @@ export default function VaginalInfections() {
             { icon: '🦠', title: 'Bacterial Vaginosis (BV)', desc: 'A shift in vaginal bacteria causing fishy odour and greyish discharge — very common and easily treatable.' },
             { icon: '🍄', title: 'Candidal (Yeast) Infection', desc: 'Intense itching, thick white discharge — caused by Candida fungus, treated with antifungals.' },
             { icon: '🔬', title: 'Trichomonas (STI)', desc: 'A sexually transmitted infection causing frothy, yellow-green discharge with odour.' },
-            { icon: '🌡️', title: 'Cervicitis & Pelvic Inflammatory Disease', desc: 'Infections ascending to the cervix or upper reproductive tract — requiring prompt antibiotic treatment.' },
+            { icon: '🌡️', title: 'Cervicitis and Pelvic Inflammatory Disease', desc: 'Infections ascending to the cervix or upper reproductive tract — requiring prompt antibiotic treatment.' },
           ],
         }}
         faqs={[

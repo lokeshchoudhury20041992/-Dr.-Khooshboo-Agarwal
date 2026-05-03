@@ -18,7 +18,7 @@ export default function PreconceptionCounselling() {
             'Dr. Khooshboo Agarwal\'s preconception consultations cover your medical history, nutritional status, vaccinations, genetic risk factors, lifestyle habits, and any existing conditions like PCOS, thyroid disease, or diabetes that need to be optimized before conception.',
           ],
           highlights: [
-            { icon: '💊', title: 'Folic Acid & Nutritional Guidance', desc: 'Starting folic acid before pregnancy significantly reduces neural tube defects.' },
+            { icon: '💊', title: 'Folic Acid and Nutritional Guidance', desc: 'Starting folic acid before pregnancy significantly reduces neural tube defects.' },
             { icon: '🧬', title: 'Genetic Counselling', desc: 'For couples with family history of inherited conditions or previous pregnancy losses.' },
             { icon: '🩺', title: 'Medical Condition Optimization', desc: 'Conditions like thyroid disease and diabetes need to be well-controlled before conception.' },
             { icon: '💉', title: 'Pre-Pregnancy Vaccinations', desc: 'Rubella, Hepatitis B, and other vaccines that safeguard pregnancy are reviewed.' },

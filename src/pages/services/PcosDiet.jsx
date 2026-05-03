@@ -25,10 +25,10 @@ export default function PcosDiet() {
       </Helmet>
       <ServicePageTemplate
         hero={{
-          tag: 'Gynecology & Nutrition',
-          heading: 'PCOS Diet & Lifestyle Management: Healing From Within',
+          tag: 'Gynecology and Nutrition',
+          heading: 'PCOS Diet and Lifestyle Management: Healing From Within',
           subtitle: 'Medicine is only half the battle. Reversing PCOS symptoms starts on your plate. Dr. Khooshboo Agarwal offers practical, evidence-based nutrition strategies to regain control of your hormones.',
-          title: 'PCOS Diet & Lifestyle',
+          title: 'PCOS Diet and Lifestyle',
         }}
         intro={{
           heading: 'Why Does Diet Matter for PCOS?',

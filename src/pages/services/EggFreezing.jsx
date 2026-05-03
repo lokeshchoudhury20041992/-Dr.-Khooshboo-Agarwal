@@ -5,7 +5,7 @@ export default function EggFreezing() {
   return (
     <>
       <Helmet>
-        <title>Egg Freezing Cost & Procedure in Kolkata | Preserve Your Fertility</title>
+        <title>Egg Freezing Cost and Procedure in Kolkata | Preserve Your Fertility</title>
         <meta name="description" content="Secure your reproductive future with egg freezing in Kolkata. Dr. Khooshboo Agarwal clearly explains the process, age limits, and transparent costs." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/fertility/egg-freezing" />
         <script type="application/ld+json">
@@ -39,7 +39,7 @@ export default function EggFreezing() {
           highlights: [
             { icon: '⏳', title: 'Stop the Clock', desc: 'Secure high-quality eggs before natural age-related fertility decline.' },
             { icon: '❄️', title: 'Advanced Vitrification', desc: 'Rapid-freeze technology ensures maximum survival rates post-thaw.' },
-            { icon: '💼', title: 'Career & Family', desc: 'Take the pressure off finding a partner or pausing your career goals.' },
+            { icon: '💼', title: 'Career and Family', desc: 'Take the pressure off finding a partner or pausing your career goals.' },
             { icon: '🛡️', title: 'Medical Preservation', desc: 'Protect fertility before undergoing cancer treatments or pelvic surgeries.' },
           ],
         }}

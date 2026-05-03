@@ -18,22 +18,24 @@ export default function Navbar() {
       <div className="container">
         <div className="navbar-inner">
           <Link to="/" className="logo" onClick={close} aria-label="Dr. Khooshboo Agarwal Home">
-            <div className="logo-icon" aria-hidden="true">👩‍⚕️</div>
             <div className="logo-text">
               <div className="name">Dr. Khooshboo Agarwal</div>
-              <div className="designation">Gynecologist &amp; Infertility Specialist</div>
+              <div className="designation">Gynecologist and Infertility Specialist</div>
             </div>
           </Link>
 
           <div className={`nav-links${menuOpen ? ' mobile-open' : ''}`}>
             <NavLink to="/" end onClick={close}>Home</NavLink>
             <NavLink to="/about" onClick={close}>About</NavLink>
+            <NavLink to="/clinics" onClick={close}>Clinics</NavLink>
             <NavLink to="/blog" onClick={close}>Blog</NavLink>
             <NavLink to="/pregnancy-care" onClick={close}>Pregnancy</NavLink>
             <NavLink to="/fertility" onClick={close}>Fertility</NavLink>
             <NavLink to="/gynecology" onClick={close}>Gynecology</NavLink>
             <NavLink to="/surgeries" onClick={close}>Surgeries</NavLink>
-            <a href="https://maatritvaivffertility.com/appointment" target="_blank" rel="noopener noreferrer" className="nav-cta" onClick={close}>Book Appointment</a>
+            <NavLink to="/contact" className="nav-cta" onClick={close}>
+              Contact Us
+            </NavLink>
           </div>
 
           <button

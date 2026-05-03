@@ -5,7 +5,7 @@ export default function Adenomyosis() {
   return (
     <>
       <Helmet>
-        <title>Adenomyosis Treatment in Kolkata | Symptoms & Diagnosis</title>
+        <title>Adenomyosis Treatment in Kolkata | Symptoms and Diagnosis</title>
         <meta name="description" content="Expert adenomyosis diagnosis and treatment by Dr. Khooshboo Agarwal. Comprehensive care for heavy bleeding, enlarged uterus, and severe pelvic pain." />
         <link rel="canonical" href="https://www.drkhooshbooagarwal.com/gynecology/adenomyosis" />
         <script type="application/ld+json">
@@ -26,7 +26,7 @@ export default function Adenomyosis() {
       <ServicePageTemplate
         hero={{
           tag: 'Gynecology',
-          heading: 'Adenomyosis Treatment: Managing Heavy Bleeding & Pain',
+          heading: 'Adenomyosis Treatment: Managing Heavy Bleeding and Pain',
           subtitle: 'Often misdiagnosed or confused with fibroids, Adenomyosis requires expert identification. Dr. Khooshboo Agarwal offers precise diagnostic scans and customized treatment plans.',
           title: 'Adenomyosis',
         }}

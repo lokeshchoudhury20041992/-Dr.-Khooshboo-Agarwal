@@ -94,7 +94,7 @@ const blogContent = {
     faqs: [
       { question: 'Who is the best lady gynecologist in Kolkata?', answer: 'Dr. Khooshboo Agarwal is widely regarded as one of the best lady gynecologists in Kolkata. She is an MS-qualified Obstetrician, Gynecologist and Infertility Specialist practising at multiple hospitals across the city including ILS Saltlake, ILS Nagerbazar, IRM Kolkata, Care Hospital, and more.' },
       { question: 'Which is the best gynecology clinic near Dumdum and Saltlake?', answer: 'Dr. Khooshboo Agarwal consults at ILS Saltlake (near Bidhannagar) and ILS Nagerbazar (near Dumdum) among other locations — making her one of the most accessible gynecologists for patients in these areas.' },
-      { question: 'What should I look for in a gynecologist?', answer: 'Look for formal qualifications (MBBS + MS or MD in Obs & Gynae), hospital affiliations, experience in your specific concern (pregnancy, PCOS, infertility etc.), and most importantly, a doctor who makes you feel heard and comfortable.' },
+      { question: 'What should I look for in a gynecologist?', answer: 'Look for formal qualifications (MBBS + MS or MD in Obs and Gynae), hospital affiliations, experience in your specific concern (pregnancy, PCOS, infertility etc.), and most importantly, a doctor who makes you feel heard and comfortable.' },
       { question: 'Which is the best gynecologist in Laketown?', answer: 'Dr. Khooshboo Agarwal, though primarily associated with hospitals in Saltlake and Nagerbazar, serves patients from Laketown who travel a short distance for her care. She is one of the top-rated gynecologists in the greater Dumdum and North Kolkata area.' },
     ],
     body: `
@@ -104,7 +104,7 @@ const blogContent = {
 
       <h2>What to Look For in a Gynecologist</h2>
       <ul>
-        <li><strong>Qualifications:</strong> An MBBS followed by an MS or MD in Obstetrics & Gynaecology from a recognized university. Additional superspeciality training in infertility & ART procedures is a strong advantage.</li>
+        <li><strong>Qualifications:</strong> An MBBS followed by an MS or MD in Obstetrics and Gynaecology from a recognized university. Additional superspeciality training in infertility and ART procedures is a strong advantage.</li>
         <li><strong>Hospital affiliations:</strong> A doctor who consults at reputed, well-equipped hospitals is better placed to handle emergencies and complex cases.</li>
         <li><strong>Specialization match:</strong> If you need infertility help, find someone trained in fertility — not just a general gynecologist.</li>
         <li><strong>Communication style:</strong> Do you feel heard? Are your questions answered clearly? This matters enormously in healthcare.</li>
@@ -130,7 +130,7 @@ function getGenericBody(post) {
     <p>This is an important topic that affects many women in Kolkata and across India. Understanding the basics helps you recognize when to seek professional help — and what to expect when you do.</p>
     <h2>When to See Dr. Khooshboo Agarwal</h2>
     <p>If you have concerns related to ${post.category.toLowerCase()}, Dr. Khooshboo Agarwal offers compassionate, expert care at clinics across Kolkata including ILS Saltlake, ILS Nagerbazar, IRM Kolkata, and more.</p>
-    <div class="article-callout"><p>Early consultation leads to better outcomes. Do not wait for symptoms to worsen — book an appointment today.</p></div>
+    <div class="article-callout"><p>Early consultation leads to better outcomes. Do not wait for symptoms to worsen — get in touch with us today.</p></div>
     <h2>Serving Patients Across Kolkata</h2>
     <p>Dr. Khooshboo Agarwal sees patients from Saltlake, Bidhannagar, Dumdum, Laketown, Nagerbazar, New Town and the wider Kolkata metropolitan area.</p>
   `
@@ -169,7 +169,7 @@ export default function BlogPost() {
           "headline": post.title,
           "description": post.metaDescription,
           "datePublished": new Date(post.date).toISOString(),
-          "author": { "@type": "Person", "name": "Dr. Khooshboo Agarwal", "jobTitle": "Obstetrician & Gynecologist" },
+          "author": { "@type": "Person", "name": "Dr. Khooshboo Agarwal", "jobTitle": "Obstetrician and Gynecologist" },
           "publisher": { "@type": "Organization", "name": "Dr. Khooshboo Agarwal Clinic" },
           "keywords": post.tags.join(', '),
         })}</script>
@@ -197,9 +197,9 @@ export default function BlogPost() {
           <span className="blog-tag" style={{ marginTop: '16px', display: 'inline-block' }}>{post.category}</span>
           <h1 style={{ marginTop: '14px', marginBottom: '20px', maxWidth: '720px' }}>{post.title}</h1>
           <div className="blog-meta">
-            <span>🗓 {post.date}</span>
-            <span>⏱ {post.readTime}</span>
-            <span>✍️ Dr. Khooshboo Agarwal</span>
+            <span style={{ color: 'var(--gray-500)' }}>{post.date}</span>
+            <span style={{ color: 'var(--gray-500)' }}>{post.readTime}</span>
+            <span style={{ color: 'var(--gray-500)' }}>By Dr. Khooshboo Agarwal</span>
           </div>
         </div>
       </header>
@@ -213,12 +213,12 @@ export default function BlogPost() {
               <div className="avatar">
                 {imgProfile
                   ? <img src={imgProfile} alt="Dr. Khooshboo Agarwal – best gynecologist near me in Kolkata" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                  : <span style={{ fontSize: '2.5rem' }}>👩‍⚕️</span>
+                  : <span style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', fontWeight: 700, color: 'var(--gold)' }}>K.A.</span>
                 }
               </div>
               <div>
                 <h5>Dr. Khooshboo Agarwal</h5>
-                <p>MS (Obs &amp; Gynae) · Obstetrician, Gynecologist &amp; Infertility Specialist in Kolkata. Trained at IRM Kolkata. Consulting at ILS Saltlake, ILS Nagerbazar, Care Hospital, and more.</p>
+                <p>MS (Obs and Gynae) · Obstetrician, Gynecologist and Infertility Specialist in Kolkata. Trained at IRM Kolkata. Consulting at ILS Saltlake, ILS Nagerbazar, Care Hospital, and more.</p>
               </div>
             </div>
 
@@ -228,7 +228,7 @@ export default function BlogPost() {
             {/* Article tags */}
             <div style={{ marginTop: '36px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
               {post.tags.map((tag) => (
-                <span key={tag} style={{ background: 'var(--rose-pale)', color: 'var(--rose-primary)', fontSize: '0.78rem', fontWeight: 600, padding: '4px 12px', borderRadius: '50px' }}>
+                <span key={tag} style={{ background: 'var(--ivory)', color: 'var(--forest)', fontSize: '0.78rem', fontWeight: 600, padding: '4px 12px', borderRadius: '0' }}>
                   #{tag}
                 </span>
               ))}
@@ -236,8 +236,8 @@ export default function BlogPost() {
 
             {/* Internal links */}
             {post.linkedServices && post.linkedServices.length > 0 && (
-              <div style={{ marginTop: '36px', padding: '24px', background: 'var(--teal-pale)', borderRadius: 'var(--radius-md)', borderLeft: '4px solid var(--teal-accent)' }}>
-                <h4 style={{ color: 'var(--teal-accent)', marginBottom: '12px' }}>Related Services by Dr. Khooshboo Agarwal</h4>
+              <div style={{ marginTop: '36px', padding: '24px', background: 'var(--ivory)', borderRadius: 'var(--radius-md)', borderLeft: '2px solid var(--gold)' }}>
+                <h4 style={{ color: 'var(--forest)', marginBottom: '12px', fontFamily: 'var(--font-display)', fontSize: '1.1rem' }}>Related Services by Dr. Khooshboo Agarwal</h4>
                 <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
                   {post.linkedServices.map((link) => (
                     <Link key={link} to={link} className="btn btn-sm btn-teal">{link.split('/').pop().replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}</Link>
@@ -260,8 +260,8 @@ export default function BlogPost() {
           <div style={{ maxWidth: '760px', margin: '60px auto 0' }}>
             <div className="highlight-box">
               <h2>Have a Question for Dr. Khooshboo?</h2>
-              <p>Book a private consultation and get expert guidance tailored to your situation.</p>
-              <a href="https://maatritvaivffertility.com/appointment" target="_blank" rel="noopener noreferrer" className="btn-white">📅 Book Appointment</a>
+              <p>Get in touch and get expert guidance tailored to your situation.</p>
+              <Link to="/contact" className="btn-white">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -279,8 +279,8 @@ export default function BlogPost() {
               blogPosts.filter((p) => p.slug !== slug && p.category !== post.category)
             ).slice(0, 3).map((related) => (
               <article className="blog-card" key={related.slug}>
-                <div className="blog-card-img" style={{ background: 'linear-gradient(135deg, var(--rose-pale), var(--teal-pale))' }} aria-hidden="true">
-                  <span>{related.emoji}</span>
+                <div className="blog-card-img" style={{ background: 'linear-gradient(135deg, var(--forest-light), var(--forest))' }} aria-hidden="true">
+                  <span style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--gold)', opacity: 0.5 }}>{related.emoji}</span>
                 </div>
                 <div className="blog-card-body">
                   <span className="blog-tag">{related.category}</span>

@@ -23,7 +23,7 @@ export default function IuiTreatment() {
             'By bypassing the cervix completely, IUI places a massive concentration of healthy sperm closer to the fallopian tubes right as the egg is released, drastically increasing the chances of fertilization.',
           ],
           highlights: [
-            { icon: '⏱️', title: 'Fast & Painless', desc: 'The procedure takes only 5 minutes in the clinic and feels similar to a Pap smear.' },
+            { icon: '⏱️', title: 'Fast and Painless', desc: 'The procedure takes only 5 minutes in the clinic and feels similar to a Pap smear.' },
             { icon: '💸', title: 'Cost-Effective', desc: 'Significantly less expensive than IVF, making it a great first step.' },
             { icon: '💊', title: 'Medically Timed', desc: 'Coupled with ovulation induction medication to ensure egg release.' },
             { icon: '🔬', title: 'Sperm Washing', desc: 'The lab removes seminal fluid, dead sperm, and debris before injection.' },

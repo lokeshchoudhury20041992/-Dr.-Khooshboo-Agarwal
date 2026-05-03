@@ -31,10 +31,10 @@ export default function Blog() {
               <article className="blog-card" key={post.slug}>
                 <div
                   className="blog-card-img"
-                  style={{ background: 'linear-gradient(135deg, var(--rose-pale), var(--teal-pale))' }}
+                  style={{ background: 'linear-gradient(135deg, var(--forest-light), var(--forest))' }}
                   aria-hidden="true"
                 >
-                  <span>{post.emoji}</span>
+                  <span style={{ fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: 'var(--gold)', opacity: 0.5 }}>{post.emoji}</span>
                 </div>
                 <div className="blog-card-body">
                   <span className="blog-tag">{post.category}</span>
@@ -45,8 +45,8 @@ export default function Blog() {
                   </h2>
                   <p style={{ fontSize: '0.88rem', marginBottom: '16px' }}>{post.excerpt.slice(0, 120)}…</p>
                   <div className="blog-meta">
-                    <span>🗓 {post.date}</span>
-                    <span>⏱ {post.readTime}</span>
+                    <span style={{ color: 'var(--gray-500)' }}>{post.date}</span>
+                    <span style={{ color: 'var(--gray-500)' }}>{post.readTime}</span>
                   </div>
                   <Link to={`/blog/${post.slug}`} className="read-more" style={{ display: 'block', marginTop: '14px' }}>
                     Read article →

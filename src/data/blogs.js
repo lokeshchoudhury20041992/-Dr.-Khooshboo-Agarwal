@@ -1,3 +1,7 @@
+import imgPcosEarlySigns from "../assets/pcos_early_signs.webp";
+import imgPostPillBody from "../assets/post_pill_body.webp";
+import imgAmhTestFertility from "../assets/amh_test_fertility.webp";
+
 // ============================================================
 // Blog Articles Data
 // All 15 blog articles with SEO metadata and content
@@ -15,7 +19,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '⚠️',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>Polycystic Ovary Syndrome (PCOS) is notoriously underdiagnosed — often taking 7 to 12 years from first symptom to formal diagnosis. Here are the 7 earliest warning signs that are almost universally missed.</p>
 
@@ -56,7 +60,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Women\'s Health',
     emoji: '💊',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>Millions of women have been on oral contraceptive pills (OCPs) for years — sometimes decades — managing PCOS symptoms, painful periods, or preventing pregnancy. But what actually happens when you stop? Here is the honest, month-by-month breakdown.</p>
 
@@ -91,7 +95,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '🩸',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>It is called an <strong>AMH test</strong> — Anti-Müllerian Hormone — and it is the single most powerful predictor of ovarian reserve available today. Yet the vast majority of women under 35 have never heard of it, let alone been offered one.</p>
 
@@ -124,7 +128,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '📊',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>When a fertility clinic advertises a "65% IVF success rate," what does that number actually mean for you — the patient? The answer is critical for making a financially and emotionally sound decision.</p>
 
@@ -169,7 +173,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Women\'s Health',
     emoji: '🧠',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>If you have <a href="/gynecology/pcos-treatment">PCOS</a> and also struggle with anxiety, low mood, or emotional dysregulation — there is a direct, measurable biological reason. Yet this connection is almost never communicated to patients, creating a silent crisis for millions of women.</p>
 
@@ -203,7 +207,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Local Care',
     emoji: '📍',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Trusted PCOS Care in Salt Lake City</h2>
       <p>If you live in Bidhannagar (Salt Lake) and are struggling with the exhausting symptoms of Polycystic Ovary Syndrome (PCOS), finding the right gynecologist is your first priority. Dr. Khooshboo Agarwal is highly rated as the <strong>best PCOS specialist in Salt Lake, Kolkata</strong>, offering empathetic, non-judgmental care.</p>
@@ -232,7 +236,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '💰',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Breaking Down IVF Costs in North Kolkata</h2>
       <p>The financial uncertainty of fertility treatments can be as stressful as the medical journey itself. If you are researching the <strong>IVF treatment cost in Dumdum</strong> or the greater North Kolkata area, it is critical to understand what exactly you are paying for.</p>
@@ -262,7 +266,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🥗',
-    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Navigating Teenage PCOS</h2>
       <p>Adolescence is hard enough without adding rapid weight gain, severe acne, and irregular periods to the mix. For teenagers diagnosed with PCOS, enforcing extreme, restrictive diets (like Keto or zero-carbs) is psychologically damaging and physiologically unsafe for a growing body.</p>
@@ -290,7 +294,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '⚖️',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Two Paths to Pregnancy</h2>
       <p>When you seek help for infertility, you will immediately be presented with two famous acronyms: <a href="/fertility/iui-treatment">IUI (Intrauterine Insemination)</a> and <a href="/fertility/ivf-treatment">IVF (In Vitro Fertilization)</a>. Choosing between them depends entirely on your specific diagnosis, age, and budget.</p>
@@ -320,7 +324,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '🎗️',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Inflammatory Barrier to Conception</h2>
       <p>If you have been diagnosed with <a href="/gynecology/endometriosis">Endometriosis</a> and are struggling to conceive, you are not alone. It is estimated that up to 50% of women with endometriosis experience infertility. But why does a condition known for causing pain also prevent pregnancy?</p>
@@ -348,7 +352,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🎗️',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Two Conditions, Similar Sufferings</h2>
       <p>Many women suffer for years with debilitating period pain, often being misdiagnosed. Two of the most common culprits are <a href="/gynecology/endometriosis">Endometriosis</a> and <a href="/gynecology/adenomyosis">Adenomyosis</a>. While they share symptoms, they occur in entirely different locations in the reproductive system.</p>
@@ -359,7 +363,7 @@ export const blogPosts = [
       <h2>What is Adenomyosis?</h2>
       <p>In adenomyosis, the endometrial tissue grows <strong>deep into the muscular wall</strong> of the uterus itself. Instead of growing outside, it invades the muscle layer, causing the uterus to become enlarged, bulky, and extremely tender.</p>
       
-      <h2>Symptom Overlap & Differences</h2>
+      <h2>Symptom Overlap and Differences</h2>
       <ul>
         <li><strong>Pain:</strong> Both cause severe menstrual cramps (dysmenorrhea). Endo pain often starts days before the period and hurts during sex. Adeno causes a unique "heavy, dragging" pelvic pressure.</li>
         <li><strong>Bleeding:</strong> Adenomyosis is much more likely to cause prolonged, flooding heavy periods with large blood clots.</li>
@@ -379,7 +383,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility',
     emoji: '🌸',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Role of Fallopian Tubes</h2>
       <p>The fallopian tubes are the highways of conception. Every month, an ovary releases an egg into the tube. Sperm must travel up through the cervix and uterus into the tube to meet and fertilize the egg. If the tubes are blocked by scar tissue or infection, they cannot meet.</p>
@@ -403,7 +407,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🛑',
-    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Golden Rule of Menopause</h2>
       <p>If you have gone 12 consecutive months without a period, you are in <a href="/gynecology/menopause-management">menopause</a>. From that point forward, <strong>any vaginal bleeding, spotting, or brownish discharge is considered abnormal.</strong></p>
@@ -431,7 +435,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility',
     emoji: '🧪',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Maximizing Your Next Cycle</h2>
       <p>If you are about to undergo <a href="/fertility/iui-treatment">IUI (Intrauterine Insemination)</a>, your goal is to optimize both egg quality and the uterine environment. Here is how to prepare:</p>
@@ -460,7 +464,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility',
     emoji: '⚖️',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Positive Test That Disappears</h2>
       <p>A chemical pregnancy is a very early miscarriage that occurs within the first five weeks of pregnancy. You may take a pregnancy test on the day of your missed period, get a faint positive, but then start bleeding heavily a few days later. It is called "chemical" because the only way the pregnancy was detected was biochemically (the hCG hormone in urine or blood), not by ultrasound.</p>
@@ -484,7 +488,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🏋️‍♀️',
-    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Shift in Fat Distribution</h2>
       <p>During <a href="/gynecology/menopause-management">menopause</a>, almost every woman notices a change in her body composition. Even if you haven't actually gained scale weight, fat tends to redistribute from the hips and thighs directly to the abdomen, creating the stubborn "menopause belly."</p>
@@ -511,7 +515,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '⚠️',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Silent Systs</h2>
       <p>The vast majority of women will develop ovarian cysts at some point without ever knowing it. Most are "functional" cysts that form during normal ovulation and resolve on their own. However, if a cyst grows too large, bleeds, or is a sign of <a href="/gynecology/endometriosis">Endometriosis</a> (like chocolate cysts), it requires intervention.</p>
@@ -540,7 +544,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🩺',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Understanding the Confusion</h2>
       <p>In India, the terms Polycystic Ovarian Disease (PCOD) and Polycystic Ovary Syndrome (PCOS) are frequently used interchangeably by patients and even some medical professionals. However, they represent two different degrees of ovarian dysfunction.</p>
@@ -573,7 +577,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Pregnancy Care',
     emoji: '🏃‍♀️',
-    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Why Exercise During Pregnancy?</h2>
       <p>Gone are the days when complete bed rest was recommended for pregnant women. Unless you have a specific <a href="/pregnancy-care/high-risk-pregnancy">High-Risk Pregnancy</a> condition, the American College of Obstetricians and Gynecologists (ACOG) recommends at least 150 minutes of moderate-intensity aerobic activity every week.</p>
@@ -596,13 +600,13 @@ export const blogPosts = [
   },
   {
     slug: 'first-ob-gyn-visit-what-to-expect',
-    title: 'Your First OB-GYN Visit: What to Expect & How to Prepare',
+    title: 'Your First OB-GYN Visit: What to Expect and How to Prepare',
     excerpt: 'Feeling nervous about your first gynecologist appointment? Here is exactly what happens behind closed doors and how you can prepare for it.',
     date: 'March 28, 2026',
     author: 'Dr. Khooshboo Agarwal',
     category: 'Patient Guide',
     emoji: '🩺',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Anxiety is Normal</h2>
       <p>It is completely normal to feel nervous before your first visit to a gynecologist. Whether you are dealing with irregular periods, exploring <a href="/gynecology/contraception">Contraception</a>, or simply coming in for a routine check-up, knowing what to expect can eliminate the fear.</p>
@@ -819,7 +823,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '⚡',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>Uterine fibroids affect 1 in 4 women of reproductive age — yet the advice many receive about managing them is dangerously incomplete. The single most consequential mistake gynecologists see repeatedly: <strong>ignoring fibroids and waiting indefinitely.</strong></p>
 
@@ -856,7 +860,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '📉',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>A generation ago, PCOS was rarely diagnosed before age 25. Today, girls as young as 14 are presenting with full-blown hormonal profiles consistent with PCOS. The diagnostic age has dropped dramatically across Indian clinics. The question is: why?</p>
 
@@ -891,7 +895,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🚨',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>Women are socialized to tolerate pelvic pain as a normal part of their cycle. While menstrual cramps are common, there are 5 distinct patterns of pelvic pain that have nothing to do with menstruation — and some of them are urgent.</p>
 
@@ -926,7 +930,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '💙',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>You saw two lines on a home pregnancy test — faint, but there. Your heart leapt. Then, 10 days later, your period arrived. Your doctor may have said "chemical pregnancy" and moved on. But that clinical label does nothing to acknowledge what you experienced.</p>
 
@@ -966,7 +970,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '✨',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <p>The word "infertility" triggers immediate despair in most patients. But a diagnosis of infertility is not a biological verdict — it is a starting point for investigation. Many of the most common causes of difficulty conceiving are genuinely, meaningfully treatable. Here are six of them.</p>
 
@@ -1002,13 +1006,13 @@ export const blogPosts = [
   // ============================================================
   {
     slug: 'complete-guide-pcos-india-2026',
-    title: 'The Complete Guide to PCOS in India: Symptoms, Diet, Treatment & Fertility (2026)',
+    title: 'The Complete Guide to PCOS in India: Symptoms, Diet, Treatment and Fertility (2026)',
     excerpt: 'The most comprehensive resource on PCOS for Indian women. Covers every symptom, every treatment, diet protocols, fertility implications, and what your doctor should actually be doing.',
     date: 'April 15, 2026',
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '📚',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>What Is PCOS — A Complete Clinical Definition</h2>
       <p>Polycystic Ovary Syndrome (PCOS) is a complex endocrine and metabolic disorder affecting 1 in 5 to 1 in 10 women of reproductive age in India. Despite its name, having polycystic ovaries on an ultrasound alone is NOT sufficient for diagnosis. The Rotterdam Criteria requires 2 of 3 features: (1) irregular or absent ovulation, (2) elevated androgens (clinically or biochemically), and (3) polycystic ovarian morphology on ultrasound.</p>
@@ -1099,7 +1103,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Fertility Guide',
     emoji: '🔬',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>Who Needs IVF? The Correct Clinical Indications</h2>
       <p>IVF is not the first line of infertility treatment — it is a last resort after simpler interventions have been tried or are definitively ruled out. The clear clinical indications for IVF are:</p>
@@ -1168,7 +1172,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Gynecology',
     emoji: '🎗️',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>The Diagnosis Delay Crisis</h2>
       <p>In India, the average time between a woman first experiencing endometriosis symptoms and receiving a correct diagnosis is 7 to 12 years. In that window, the disease silently progresses — creating scar tissue, destroying ovarian tissue, distorting anatomy, and compounding fertility damage. The reason for this delay is not a lack of medical knowledge. It is the cultural normalization of women's pain.</p>
@@ -1232,7 +1236,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Pregnancy',
     emoji: '🤱',
-    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1518609571773-39b7d303a87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>What Exactly Makes a Pregnancy "High-Risk"?</h2>
       <p>A pregnancy is classified as high-risk when factors are present that significantly increase the likelihood of complications for mother, baby, or both compared to a standard pregnancy. The term covers an enormous range of conditions with vastly different risk levels and management strategies.</p>
@@ -1306,7 +1310,7 @@ export const blogPosts = [
     author: 'Dr. Khooshboo Agarwal',
     category: 'Surgeries',
     emoji: '🔭',
-    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&fm=webp',
     content: `
       <h2>What Is Laparoscopy?</h2>
       <p>Laparoscopy (also called keyhole surgery or minimally invasive surgery) is a surgical technique in which the surgeon operates through tiny incisions (typically 5mm to 12mm) using a high-definition camera (laparoscope) and specialized long instruments. Instead of a large open incision, you have 2–4 small openings, resulting in dramatically less tissue trauma, reduced blood loss, much less post-operative pain, and significantly faster recovery compared to traditional open surgery.</p>

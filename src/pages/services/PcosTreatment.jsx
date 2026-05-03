@@ -24,7 +24,7 @@ export default function PcosTreatment() {
           ],
           highlights: [
             { icon: '📋', title: 'Comprehensive Hormonal Work-Up', desc: 'LH, FSH, testosterone, insulin, thyroid — a full picture before any treatment.' },
-            { icon: '⚖️', title: 'Weight & Insulin Resistance', desc: 'Addressing the metabolic root of PCOS alongside the gynecological symptoms.' },
+            { icon: '⚖️', title: 'Weight and Insulin Resistance', desc: 'Addressing the metabolic root of PCOS alongside the gynecological symptoms.' },
             { icon: '🌸', title: 'Fertility Preservation', desc: 'For women wanting to conceive, early PCOS management protects future fertility.' },
             { icon: '💊', title: 'Evidence-Based Medication', desc: 'Oral contraceptives, metformin, clomiphene — prescribed only when clinically indicated.' },
           ],
@@ -40,7 +40,7 @@ export default function PcosTreatment() {
               { icon: '🤚', title: 'Persistent Acne', desc: 'Hormonal acne on the jawline and chin that does not respond to regular skincare.' },
               { icon: '⚖️', title: 'Unexplained Weight Gain', desc: 'Especially around the abdomen — driven by insulin resistance, not just diet.' },
               { icon: '🌸', title: 'Difficulty Getting Pregnant', desc: 'PCOS is one of the most common causes of anovulatory infertility.' },
-              { icon: '😴', title: 'Fatigue & Mood Changes', desc: 'Often linked to insulin swings and hormonal fluctuations throughout the day.' },
+              { icon: '😴', title: 'Fatigue and Mood Changes', desc: 'Often linked to insulin swings and hormonal fluctuations throughout the day.' },
             ],
           },
         ]}
