@@ -10,7 +10,7 @@ let imgProfile, imgWithBaby, imgAward
 let imgSurgery, imgGynecologist
 
 try {
-  imgProfile = new URL('../assets/khushboo.jpg', import.meta.url).href
+  imgProfile = new URL('../assets/khushboo_hero.jpg', import.meta.url).href
   imgWithBaby = new URL('../assets/best-lady-gynecologist-dumdum-kolkata-dr-khooshboo-agarwal-newborn-delivery.jpg', import.meta.url).href
   imgAward = new URL('../assets/dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg', import.meta.url).href
   imgSurgery = new URL('../assets/best-gynecologist-saltlake-bidhannagar-dr-khooshboo-agarwal-surgery.jpg', import.meta.url).href

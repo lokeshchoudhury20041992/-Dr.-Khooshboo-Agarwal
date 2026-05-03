@@ -6,7 +6,7 @@ import { hospitals, doctorProfile } from '../data/services'
 // Image imports
 let imgProfile, imgSurgical, imgWithBaby, imgAward, imgCertificate
 try {
-  imgProfile      = new URL('../assets/khushboo.jpg', import.meta.url).href
+  imgProfile      = new URL('../assets/khushboo_hero.jpg', import.meta.url).href
   imgSurgical     = new URL('../assets/WhatsApp Image 2026-04-08 at 21.56.48.jpeg', import.meta.url).href
   imgWithBaby     = new URL('../assets/WhatsApp Image 2026-04-08 at 21.56.49 (1).jpeg', import.meta.url).href
   imgAward        = new URL('../assets/WhatsApp Image 2026-04-09 at 09.58.54.jpeg', import.meta.url).href

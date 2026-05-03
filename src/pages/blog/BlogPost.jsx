@@ -137,7 +137,7 @@ function getGenericBody(post) {
 }
 
 let imgProfile
-try { imgProfile = new URL('../../assets/khushboo.jpg', import.meta.url).href } catch (_) { imgProfile = null }
+try { imgProfile = new URL('../../assets/khushboo_hero.jpg', import.meta.url).href } catch (_) { imgProfile = null }
 
 export default function BlogPost() {
   const { slug } = useParams()
