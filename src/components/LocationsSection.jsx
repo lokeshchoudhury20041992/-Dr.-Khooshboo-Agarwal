@@ -2,10 +2,10 @@ import { useState } from 'react'
 
 const locations = [
   {
-    name: 'Industrial Research Laboratory (Directorate Of Industries)',
+    name: 'Institute of Reproductive Medicine (IRM)',
     address: 'Kolkata, West Bengal',
     mapUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58952.31981989462!2d88.33714895418636!3d22.559647195852783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027686f2dc22ed%3A0xeb7aec810fd1acc5!2sIndustrial%20Research%20Laboratory%20Directorate%20Of%20Industries%20Government%20Of%20West%20Bengal!5e0!3m2!1sen!2sin!4v1777829930417!5m2!1sen!2sin',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117942.28735640444!2d88.28852859747593!3d22.515568274018214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c8bbe29ac5%3A0x75d4cc4cf105d0ea!2sInstitute%20of%20Reproductive%20Medicine%20(IRM)!5e0!3m2!1sen!2sin!4v1777878185876!5m2!1sen!2sin',
   },
   {
     name: 'Techno India DAMA Healthcare and Medical Centre',
@@ -14,7 +14,7 @@ const locations = [
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58973.602189953745!2d88.32503013614075!3d22.509805254772424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02742df11cabfb%3A0x18a3aa3cf00f534!2sTechno%20India%20DAMA%20Healthcare%20%26%20Medical%20Centre!5e0!3m2!1sen!2sin!4v1777829974019!5m2!1sen!2sin',
   },
   {
-    name: 'Life Care Diagnostic Centre, Lauhati',
+    name: 'Life Care Hospital Lauhati',
     address: 'Lauhati, Kolkata, West Bengal',
     mapUrl:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117927.47506478401!2d88.34240354795655!3d22.532920641422223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020a805f502101%3A0xafeea51d93b734fc!2sLife%20Care%20Diagnostic%20Centre%2C%20Lauhati!5e0!3m2!1sen!2sin!4v1777830004295!5m2!1sen!2sin',
