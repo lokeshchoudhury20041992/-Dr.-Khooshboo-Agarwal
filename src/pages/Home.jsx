@@ -7,16 +7,17 @@ import { blogPosts } from '../data/blogs'
 
 // Image imports
 let imgProfile, imgWithBaby, imgAward
-let imgSurgery, imgGynecologist
+let imgSurgery, imgGynecologist, imgCommunityConsultation
 
 try {
   imgProfile = new URL('../assets/khushboo_hero.jpg', import.meta.url).href
   imgWithBaby = new URL('../assets/best-lady-gynecologist-dumdum-kolkata-dr-khooshboo-agarwal-newborn-delivery.jpg', import.meta.url).href
-  imgAward = new URL('../assets/dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg', import.meta.url).href
+  imgAward = new URL('../assets/dr-khooshboo-agarwal-gynecologisthero2.png', import.meta.url).href
   imgSurgery = new URL('../assets/best-gynecologist-saltlake-bidhannagar-dr-khooshboo-agarwal-surgery.jpg', import.meta.url).href
   imgGynecologist = new URL('../assets/dr-khooshboo-agarwal-gynecologist-near-me-kolkata.jpg', import.meta.url).href
+  imgCommunityConsultation = new URL('../assets/dr-khooshboo-agarwal-gynecologisthero3.png', import.meta.url).href
 } catch (_) {
-  imgProfile = imgWithBaby = imgAward = imgSurgery = imgGynecologist = null
+  imgProfile = imgWithBaby = imgAward = imgSurgery = imgGynecologist = imgCommunityConsultation = null
 }
 
 const homeFaqs = [
@@ -154,8 +155,8 @@ export default function Home() {
               {imgAward ? (
                 <img
                   src={imgAward}
-                  alt="Dr. Khooshboo Agarwal receiving recognition at ENHANCE Advance USG medical conference"
-                  title="Dr. Khooshboo Agarwal | Award at ENHANCE USG Conference"
+                  alt="Dr. Khooshboo Agarwal – expert lady gynecologist and infertility specialist in Kolkata"
+                  title="Dr. Khooshboo Agarwal | Gynecologist and Infertility Specialist Kolkata"
                   loading="lazy"
                 />
               ) : (
@@ -164,7 +165,7 @@ export default function Home() {
             </div>
             <div className="about-text">
               <div className="section-tag">About the Doctor</div>
-              <h2 id="about-heading">A Gynecologist Who Truly Listens</h2>
+              <h2 id="about-heading" style={{ marginBottom: '20px', lineHeight: '1.25' }}>A Gynecologist Who Truly Listens</h2>
               <p>
                 Growing up, Dr. Khooshboo Agarwal saw how many women
                 silently endured health problems they felt too embarrassed
@@ -341,6 +342,147 @@ export default function Home() {
           </div>
           <div className="faq-list">
             <FAQ items={homeFaqs} />
+          </div>
+        </div>
+      </section>
+
+      {/* ── GUPSHUP WITH YOUR GYNAEC ── */}
+      <section className="section" style={{ background: 'var(--ivory-deep)' }} aria-labelledby="gupshup-heading">
+        <div className="container">
+          <div className="grid-2" style={{ alignItems: 'center', gap: '60px' }}>
+            <div>
+              <div className="section-tag">Join Our Community</div>
+              <h2 id="gupshup-heading" style={{ color: 'var(--forest)', marginBottom: '20px', lineHeight: '1.25' }}>Gupshup With Your Gynaec</h2>
+              <p style={{ fontSize: '1.05rem', color: 'var(--gray-600)', marginBottom: '24px', lineHeight: '1.8' }}>
+                Join Dr. Khooshboo Agarwal's online community where we demystify women's health with friendly conversations, direct Q&As, and expert gynecological medical advice.
+              </p>
+              <p style={{ fontSize: '0.95rem', color: 'var(--gray-500)', marginBottom: '32px' }}>
+                Connect with us on our primary platforms to get reliable, evidence-based daily health insights.
+              </p>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '24px', maxWidth: '400px' }}>
+                {[
+                  { 
+                    name: 'Instagram', 
+                    handle: '@gupshupwithyourgynaec', 
+                    link: 'https://www.instagram.com/gupshupwithyourgynaec/', 
+                    icon: (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'block' }}>
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                      </svg>
+                    ) 
+                  },
+                  { 
+                    name: 'Facebook', 
+                    handle: 'Gupshup With Your Gynaec', 
+                    link: 'https://www.facebook.com/profile.php?id=61572159206766', 
+                    icon: (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style={{ display: 'block' }}>
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                      </svg>
+                    ) 
+                  },
+                  { 
+                    name: 'LinkedIn', 
+                    handle: 'Dr. Khooshboo Agarwal', 
+                    link: 'https://www.linkedin.com/in/dr-khooshboo-agarwal-754a603b9/', 
+                    icon: (
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ display: 'block' }}>
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                      </svg>
+                    ) 
+                  }
+                ].map(social => (
+                  <a 
+                    key={social.name}
+                    href={social.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      gap: '16px', 
+                      padding: '16px 20px', 
+                      background: 'white', 
+                      borderRadius: 'var(--radius-md)', 
+                      border: '1px solid var(--gray-200)',
+                      textDecoration: 'none',
+                      color: 'var(--forest)',
+                      fontWeight: 600,
+                      fontSize: '0.92rem',
+                      transition: 'all 0.3s ease',
+                      boxShadow: 'var(--shadow-sm)'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.borderColor = 'var(--gold)';
+                      e.currentTarget.style.boxShadow = 'var(--shadow-md)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.borderColor = 'var(--gray-200)';
+                      e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
+                    }}
+                  >
+                    <span style={{ color: 'var(--gold)', display: 'flex', alignItems: 'center' }}>{social.icon}</span>
+                    <div style={{ textAlign: 'left' }}>
+                      <div style={{ fontSize: '0.95rem', color: 'var(--forest)', fontWeight: 700, lineHeight: '1.2' }}>{social.name}</div>
+                      <div style={{ fontSize: '0.78rem', color: 'var(--gray-500)', fontWeight: 400, marginTop: '3px' }}>{social.handle} ↗</div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <div style={{ position: 'relative', padding: '10px', display: 'flex', justifyContent: 'center' }}>
+              <div 
+                style={{ 
+                  borderRadius: 'var(--radius-lg)', 
+                  overflow: 'hidden', 
+                  boxShadow: 'var(--shadow-lg)',
+                  border: '4px solid white',
+                  aspectRatio: '9 / 16',
+                  maxWidth: '300px',
+                  width: '100%',
+                  background: 'var(--ivory)'
+                }}
+              >
+                {imgCommunityConsultation ? (
+                  <img 
+                    src={imgCommunityConsultation} 
+                    alt="Join Dr. Khooshboo Agarwal's online community - Gupshup With Your Gynaec" 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                ) : (
+                  <div style={{ width: '100%', height: '100%', background: 'var(--forest)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <span style={{ color: 'var(--gold)', fontSize: '3rem' }}>🩺</span>
+                  </div>
+                )}
+              </div>
+              <div 
+                style={{ 
+                  position: 'absolute', 
+                  bottom: '-10px', 
+                  right: 'calc(50% - 140px)', 
+                  background: 'var(--gold)', 
+                  color: 'white', 
+                  padding: '10px 20px', 
+                  borderRadius: 'var(--radius-sm)',
+                  fontWeight: 'bold',
+                  boxShadow: 'var(--shadow-md)',
+                  zIndex: 2,
+                  fontFamily: 'var(--font-display)',
+                  fontSize: '0.85rem',
+                  letterSpacing: '0.05em'
+                }}
+              >
+                #GupshupWithYourGynaec
+              </div>
+            </div>
           </div>
         </div>
       </section>

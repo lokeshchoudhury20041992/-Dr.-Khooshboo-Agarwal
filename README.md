@@ -124,7 +124,7 @@ Rename and copy the 5 doctor photos into `src/assets/`:
 | Profile photo (blue scrubs + stethoscope) | `dr-khooshboo-agarwal-gynecologist-near-me-kolkata.jpg` |
 | Surgical scrubs + cap (Maatritva logo) | `best-gynecologist-saltlake-bidhannagar-dr-khooshboo-agarwal-surgery.jpg` |
 | Holding newborn (orange saree) | `best-lady-gynecologist-dumdum-kolkata-dr-khooshboo-agarwal-newborn-delivery.jpg` |
-| Award ceremony (ENHANCE USG conference) | `dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg` |
+| Gynecologist Hero 2 | `dr-khooshboo-agarwal-gynecologisthero2.png` |
 | MS degree certificate (SSUHS) | `dr-khooshboo-agarwal-ms-obstetrics-gynaecology-degree-certificate-ssuhs.jpg` |
 
 ### 4. Run dev server

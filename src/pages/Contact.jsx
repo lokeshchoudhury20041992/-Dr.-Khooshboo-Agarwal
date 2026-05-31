@@ -182,6 +182,41 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      {/* Social Media Community Section */}
+      <section className="section-sm" style={{ background: 'var(--gray-50)', borderTop: '1px solid var(--gray-200)' }}>
+        <div className="container">
+          <div className="highlight-box" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', background: 'white', border: '1px solid var(--gray-200)', borderRadius: 'var(--radius-lg)', padding: '40px 32px' }}>
+            <div className="section-tag" style={{ color: 'var(--gold)' }}>Join Our Community</div>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--forest)', marginBottom: '16px' }}>
+              Gupshup With Your Gynaec
+            </h2>
+            <p style={{ color: 'var(--gray-600)', fontSize: '1.05rem', maxWidth: '580px', margin: '0 auto 28px', lineHeight: '1.7' }}>
+              Follow Dr. Khooshboo Agarwal on social media for friendly, medically accurate gynaecological insights, health tips, and direct Q&A sessions.
+            </p>
+            <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <a href="https://www.instagram.com/gupshupwithyourgynaec/" target="_blank" rel="noopener noreferrer" className="btn btn-teal" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px' }}>
+                Instagram
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61572159206766" target="_blank" rel="noopener noreferrer" className="btn btn-teal" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px' }}>
+                Facebook
+              </a>
+              <a href="https://www.linkedin.com/in/dr-khooshboo-agarwal-754a603b9/" target="_blank" rel="noopener noreferrer" className="btn btn-teal" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px' }}>
+                LinkedIn
+              </a>
+              <a href="https://x.com/Letstalkpink" target="_blank" rel="noopener noreferrer" className="btn btn-teal" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px' }}>
+                Twitter / X
+              </a>
+              <a href="https://www.quora.com/profile/Gupshupwithyourgynaec" target="_blank" rel="noopener noreferrer" className="btn btn-teal" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px' }}>
+                Quora
+              </a>
+              <a href="https://www.reddit.com/user/gupshupwithyourgynae/" target="_blank" rel="noopener noreferrer" className="btn btn-teal" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px' }}>
+                Reddit
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

@@ -208,6 +208,32 @@ export default function BlogPost() {
       <section className="section" aria-label="Article content">
         <div className="container">
           <div className="article-body">
+            {/* Featured Image */}
+            {post.image && (
+              <div 
+                className="article-featured-image" 
+                style={{ 
+                  width: '100%', 
+                  marginBottom: '32px', 
+                  borderRadius: 'var(--radius-md)', 
+                  overflow: 'hidden', 
+                  background: 'var(--ivory)',
+                  border: '1px solid var(--gray-200)',
+                  aspectRatio: '16 / 9',
+                  maxHeight: '400px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                }}
+              >
+                <img 
+                  src={post.image} 
+                  alt={post.title} 
+                  style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+                />
+              </div>
+            )}
+
             {/* Author box */}
             <div className="author-box" style={{ marginBottom: '40px', marginTop: 0 }}>
               <div className="avatar">
@@ -279,8 +305,19 @@ export default function BlogPost() {
               blogPosts.filter((p) => p.slug !== slug && p.category !== post.category)
             ).slice(0, 3).map((related) => (
               <article className="blog-card" key={related.slug}>
-                <div className="blog-card-img" style={{ background: 'linear-gradient(135deg, var(--forest-light), var(--forest))' }} aria-hidden="true">
-                  <span style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--gold)', opacity: 0.5 }}>{related.emoji}</span>
+                <div className="blog-card-img">
+                  {related.image ? (
+                    <img
+                      src={related.image}
+                      alt={related.title}
+                      loading="lazy"
+                      style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                    />
+                  ) : (
+                    <div style={{ width: '100%', height: '100%', background: 'linear-gradient(135deg, var(--forest-light), var(--forest))', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <span style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--gold)', opacity: 0.5 }}>{related.emoji}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="blog-card-body">
                   <span className="blog-tag">{related.category}</span>

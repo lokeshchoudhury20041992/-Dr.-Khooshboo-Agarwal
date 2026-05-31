@@ -41,13 +41,13 @@ export const doctorImages = {
     height: 1135,
   },
 
-  // ── AWARD / CONFERENCE ─────────────────────────────────────
-  // Filename: dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg
+  // ── GYNECOLOGIST HERO 2 ─────────────────────────────────────
+  // Filename: dr-khooshboo-agarwal-gynecologisthero2.png
   // Usage: About page – Awards and Recognition section, Home trust section
   award: {
-    src: new URL('../assets/dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg', import.meta.url).href,
-    alt: 'Dr. Khooshboo Agarwal, best gynecologist near me in Kolkata, receiving recognition at the ENHANCE Advance USG medical conference',
-    title: 'Dr. Khooshboo Agarwal | Award at ENHANCE USG Conference | Best Gyno Kolkata',
+    src: new URL('../assets/dr-khooshboo-agarwal-gynecologisthero2.png', import.meta.url).href,
+    alt: 'Dr. Khooshboo Agarwal – best lady gynecologist and infertility specialist in Kolkata',
+    title: 'Dr. Khooshboo Agarwal | Gynecologist and Infertility Specialist Kolkata',
     width: 760,
     height: 950,
   },
@@ -85,8 +85,8 @@ IMAGE FILES TO RENAME AND COPY INTO src/assets/:
 3. Holding newborn baby in clinic (orange saree):
    → best-lady-gynecologist-dumdum-kolkata-dr-khooshboo-agarwal-newborn-delivery.jpg
 
-4. Award ceremony (ENHANCE Advance USG conference, Mankind Pharma):
-   → dr-khooshboo-agarwal-best-gyno-doctor-kolkata-award-enhance-usb-conference.jpg
+4. Gynecologist Hero 2:
+   → dr-khooshboo-agarwal-gynecologisthero2.png
 
 5. MS degree certificate (SSUHS Guwahati):
    → dr-khooshboo-agarwal-ms-obstetrics-gynaecology-degree-certificate-ssuhs.jpg

@@ -27,14 +27,21 @@ export default function Blog() {
       <section className="section" aria-label="All blog articles">
         <div className="container">
           <div className="grid-3">
-            {blogPosts.map((post) => (
+            {blogPosts.slice(0, 6).map((post) => (
               <article className="blog-card" key={post.slug}>
-                <div
-                  className="blog-card-img"
-                  style={{ background: 'linear-gradient(135deg, var(--forest-light), var(--forest))' }}
-                  aria-hidden="true"
-                >
-                  <span style={{ fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: 'var(--gold)', opacity: 0.5 }}>{post.emoji}</span>
+                <div className="blog-card-img">
+                  {post.image ? (
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      loading="lazy"
+                      style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                    />
+                  ) : (
+                    <div style={{ width: '100%', height: '100%', background: 'linear-gradient(135deg, var(--forest-light), var(--forest))', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <span style={{ fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: 'var(--gold)', opacity: 0.5 }}>{post.emoji}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="blog-card-body">
                   <span className="blog-tag">{post.category}</span>

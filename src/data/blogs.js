@@ -2,6 +2,18 @@ import imgPcosEarlySigns from "../assets/pcos_early_signs.webp";
 import imgPostPillBody from "../assets/post_pill_body.webp";
 import imgAmhTestFertility from "../assets/amh_test_fertility.webp";
 
+// Generated Indian Style WebP Images
+import imgPcosYoga from "../assets/pcos-early-signs-indian-woman-yoga.webp";
+import imgPregnancyCare from "../assets/pregnancy-care-indian-woman.webp";
+import imgDoctorConsultation from "../assets/indian-gynecologist-doctor-consultation.webp";
+import imgCoupleFertility from "../assets/indian-couple-fertility-pregnancy-hope.webp";
+import imgPcosDiet from "../assets/pcos-diet-plan-indian-foods.webp";
+
+// Additional high-quality clinical/real assets for variety
+import imgWithBaby from "../assets/best-lady-gynecologist-dumdum-kolkata-dr-khooshboo-agarwal-newborn-delivery.jpg";
+import imgSurgery from "../assets/best-gynecologist-saltlake-bidhannagar-dr-khooshboo-agarwal-surgery.jpg";
+import imgGynecologist from "../assets/dr-khooshboo-agarwal-gynecologist-near-me-kolkata.jpg";
+
 // ============================================================
 // Blog Articles Data
 // All 15 blog articles with SEO metadata and content
@@ -1368,6 +1380,42 @@ export const blogPosts = [
   },
 ]
 
+// Overwrite placeholders with high-quality, local Indian WebP images dynamically
+blogPosts.forEach((post, index) => {
+  // 1. Direct matches for key/specialized articles
+  if (post.slug === 'early-signs-of-pcos-women-dismiss') {
+    post.image = imgPcosEarlySigns;
+  } else if (post.slug === 'what-happens-when-you-stop-the-pill') {
+    post.image = imgPostPillBody;
+  } else if (post.slug === 'amh-test-fertility-every-woman') {
+    post.image = imgAmhTestFertility;
+  } else if (post.slug.includes('laparoscopy') || post.slug.includes('cyst') || post.slug.includes('fibroid') || post.slug.includes('surgery')) {
+    post.image = imgSurgery;
+  } else if (post.slug.includes('delivery') || post.slug.includes('born') || post.slug.includes('birth')) {
+    post.image = imgWithBaby;
+  } else {
+    // 2. Diverse categorical pools to prevent adjacent duplication
+    let categoryPool = [];
+    
+    if (post.category === 'PCOS' || post.slug.includes('pcos')) {
+      // PCOS Pool: yoga, diet, signs, consulting
+      categoryPool = [imgPcosYoga, imgPcosDiet, imgPcosEarlySigns, imgGynecologist];
+    } else if (post.category === 'Pregnancy' || post.category === 'Pregnancy Care' || post.slug.includes('pregnancy') || post.slug.includes('delivery')) {
+      // Pregnancy Pool: care, baby, couple, diet, consulting
+      categoryPool = [imgPregnancyCare, imgWithBaby, imgCoupleFertility, imgPcosDiet, imgDoctorConsultation];
+    } else if (post.category === 'Infertility' || post.category === 'Fertility' || post.category === 'Fertility Guide' || post.slug.includes('ivf') || post.slug.includes('iui') || post.slug.includes('fertility')) {
+      // Infertility Pool: couple, amh, consulting, care
+      categoryPool = [imgCoupleFertility, imgAmhTestFertility, imgDoctorConsultation, imgGynecologist];
+    } else {
+      // General Gynecology & Women's Health Pool: consulting, gynecologist, surgery, post-pill
+      categoryPool = [imgDoctorConsultation, imgGynecologist, imgSurgery, imgPostPillBody];
+    }
+    
+    // Distribute images uniquely based on post array index
+    const poolIndex = index % categoryPool.length;
+    post.image = categoryPool[poolIndex];
+  }
+});
 
 export function getBlogBySlug(slug) {
   return blogPosts.find((p) => p.slug === slug) || null

@@ -146,8 +146,9 @@ p { margin-bottom: 1.2rem; color: var(--gray-600); font-size: 1.05rem; line-heig
   color: var(--forest);
 }
 .btn-gold:hover {
-  background: var(--gold-light);
-  transform: translateY(-2px);
+  background: var(--white);
+  color: var(--forest);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-medium);
 }
 .btn-outline {
@@ -640,11 +641,15 @@ p { margin-bottom: 1.2rem; color: var(--gray-600); font-size: 1.05rem; line-heig
   aspect-ratio: 4 / 3;
   overflow: hidden;
   margin-bottom: 20px;
+  background: var(--ivory);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .blog-card-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.6s ease;
 }
 .blog-card:hover .blog-card-img img {
@@ -880,6 +885,27 @@ p { margin-bottom: 1.2rem; color: var(--gray-600); font-size: 1.05rem; line-heig
   margin-top: 16px;
   line-height: 1.8;
   color: rgba(247,245,240,0.55);
+}
+.footer-socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.footer-social-link {
+  color: rgba(247,245,240,0.45);
+  transition: var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-link:hover {
+  color: var(--gold);
+  transform: translateY(-2px);
+}
+.footer-social-link svg {
+  width: 20px;
+  height: 20px;
 }
 .footer-col h5 {
   color: var(--ivory);

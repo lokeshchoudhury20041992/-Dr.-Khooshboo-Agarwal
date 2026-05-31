@@ -9,7 +9,7 @@ try {
   imgProfile      = new URL('../assets/khushboo_hero.jpg', import.meta.url).href
   imgSurgical     = new URL('../assets/WhatsApp Image 2026-04-08 at 21.56.48.jpeg', import.meta.url).href
   imgWithBaby     = new URL('../assets/WhatsApp Image 2026-04-08 at 21.56.49 (1).jpeg', import.meta.url).href
-  imgAward        = new URL('../assets/WhatsApp Image 2026-04-09 at 09.58.54.jpeg', import.meta.url).href
+  imgAward        = new URL('../assets/dr-khooshboo-agarwal-gynecologisthero2.png', import.meta.url).href
   imgCertificate  = new URL('../assets/WhatsApp Image 2026-04-11 at 14.54.31.jpeg', import.meta.url).href
 } catch (_) {
   imgProfile = imgSurgical = imgWithBaby = imgAward = imgCertificate = null
@@ -190,8 +190,8 @@ export default function About() {
               {imgAward ? (
                 <img
                   src={imgAward}
-                  alt="Dr. Khooshboo Agarwal, best gynecologist near me Kolkata, receiving felicitation at ENHANCE Advance USG Conference with Mankind Pharma"
-                  title="Best Gyno Doctor Near Me in Kolkata – Dr. Khooshboo Agarwal at Medical Conference"
+                  alt="Dr. Khooshboo Agarwal, best gynecologist and obstetrician in Kolkata"
+                  title="Dr. Khooshboo Agarwal | Gynecologist and Infertility Specialist Kolkata"
                   width="600" height="750"
                   loading="lazy"
                   style={{ width: '100%', height: '320px', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
@@ -200,7 +200,7 @@ export default function About() {
                 <div style={{ height:'320px', background:'var(--ivory-deep)', display:'flex', alignItems:'center', justifyContent:'center', fontFamily:'var(--font-display)', fontSize:'3rem', color:'var(--gold)' }}>K.A.</div>
               )}
               <figcaption style={{ padding: '16px', background: 'white', fontSize: '0.85rem', color: 'var(--gray-600)', fontWeight: 500 }}>
-                Recognized at ENHANCE Advance USG Classes — a mark of her commitment to continuous medical education.
+                Dedicated to continuous professional excellence and providing compassionate care for every patient.
               </figcaption>
             </figure>
 
