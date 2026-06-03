@@ -1,26 +1,7 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import { submitAppointment } from '../lib/supabase'
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', phone: '', email: '', service: '', preferred_date: '', message: '' })
-  const [status, setStatus] = useState('idle') // idle | loading | success | error
-
-  const handleChange = (e) => setFormData((p) => ({ ...p, [e.target.name]: e.target.value }))
-
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    setStatus('loading')
-    try {
-      await submitAppointment(formData)
-      setStatus('success')
-      setFormData({ name: '', phone: '', email: '', service: '', preferred_date: '', message: '' })
-    } catch (err) {
-      console.error(err)
-      setStatus('error')
-    }
-  }
 
   return (
     <>
@@ -38,7 +19,7 @@ export default function Contact() {
           <div className="section-tag">Reach Out</div>
           <h1 id="contact-hero-heading">Contact Us</h1>
           <p style={{ maxWidth: '540px', margin: '16px auto 0', fontSize: '1.1rem' }}>
-            Fill in the form below and Dr. Khooshboo's team will get back to you within a few hours.
+            Call or message our booking helpline directly to confirm your appointment at any of our Kolkata locations.
           </p>
         </div>
       </header>
@@ -61,7 +42,7 @@ export default function Contact() {
               <div className="info-box">
                 <div>
                   <h4>Consultation Hours</h4>
-                  <p>Monday to Saturday, 9:00 AM to 8:00 PM</p>
+                  <p>Monday to Saturday, 8:00 AM to 8:00 PM</p>
                 </div>
               </div>
 
@@ -70,7 +51,7 @@ export default function Contact() {
                   <h4>WhatsApp Enquiry</h4>
                   <p>
                     <a
-                      href="https://wa.me/91XXXXXXXXXX"
+                      href="https://wa.me/919477595594"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ color: 'var(--forest)', fontWeight: 700, borderBottom: '1px solid var(--gold)' }}
@@ -91,93 +72,61 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Right — Appointment Form */}
-            <div className="contact-card" role="form" aria-label="Contact form">
-              <h3 style={{ marginBottom: '24px', fontFamily: 'var(--font-display)', fontSize: '1.4rem' }}>Send us a Message</h3>
+            {/* Right — Direct Contact Options */}
+            <div className="contact-card" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--forest)', margin: 0 }}>
+                Direct Consultation Booking
+              </h3>
+              <p style={{ color: 'var(--gray-600)', fontSize: '0.95rem', margin: 0, lineHeight: '1.7' }}>
+                To schedule an appointment or check doctor availability, please call our booking desk directly or send a WhatsApp message.
+              </p>
 
-              {status === 'success' && (
-                <div className="form-success visible" role="alert" style={{ background: '#d1fae5', color: '#065f46' }}>
-                  Your request has been received. Dr. Khooshboo's team will contact you shortly.
-                </div>
-              )}
-              {status === 'error' && (
-                <div className="form-success visible" role="alert" style={{ background: '#fee2e2', color: '#991b1b' }}>
-                  Something went wrong. Please try again or WhatsApp us directly.
-                </div>
-              )}
-
-              <form onSubmit={handleSubmit} noValidate>
-                <div className="form-group">
-                  <label htmlFor="name">Full Name *</label>
-                  <input
-                    type="text" id="name" name="name"
-                    value={formData.name} onChange={handleChange}
-                    required placeholder="Your full name"
-                    aria-required="true"
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="phone">Phone Number *</label>
-                  <input
-                    type="tel" id="phone" name="phone"
-                    value={formData.phone} onChange={handleChange}
-                    required placeholder="+91 XXXXX XXXXX"
-                    aria-required="true"
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="email">Email Address</label>
-                  <input
-                    type="email" id="email" name="email"
-                    value={formData.email} onChange={handleChange}
-                    placeholder="your@email.com (optional)"
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="service">Service Required</label>
-                  <select id="service" name="service" value={formData.service} onChange={handleChange}>
-                    <option value="">Select a service</option>
-                    <option value="high-risk-pregnancy">High-Risk Pregnancy</option>
-                    <option value="painless-delivery">Painless Delivery</option>
-                    <option value="pcos-treatment">PCOS Treatment</option>
-                    <option value="infertility-treatment">Infertility / IVF / ART</option>
-                    <option value="preconception-counselling">Preconception Counselling</option>
-                    <option value="contraception">Contraception Guidance</option>
-                    <option value="sexual-health">Sexual Health</option>
-                    <option value="vaginal-infections">Vaginal Infections</option>
-                    <option value="general-checkup">General Gynaecology Checkup</option>
-                  </select>
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="preferred_date">Preferred Date</label>
-                  <input
-                    type="date" id="preferred_date" name="preferred_date"
-                    value={formData.preferred_date} onChange={handleChange}
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="message">Message / Concern</label>
-                  <textarea
-                    id="message" name="message"
-                    value={formData.message} onChange={handleChange}
-                    placeholder="Briefly describe your concern (optional)"
-                  />
-                </div>
-
-                <button
-                  type="submit"
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                <a
+                  href="tel:+919477595594"
                   className="btn btn-primary"
-                  style={{ width: '100%', justifyContent: 'center' }}
-                  disabled={status === 'loading'}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '12px',
+                    padding: '16px 20px',
+                    fontSize: '0.95rem',
+                    fontWeight: 600
+                  }}
                 >
-                  {status === 'loading' ? 'Sending...' : 'Send Message'}
-                </button>
-              </form>
+                  📞 Call +91 94775 95594
+                </a>
+
+                <a
+                  href="https://wa.me/919477595594"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-gold"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '12px',
+                    padding: '16px 20px',
+                    fontSize: '0.95rem',
+                    fontWeight: 600
+                  }}
+                >
+                  💬 Message on WhatsApp
+                </a>
+              </div>
+
+              <div style={{ borderTop: '1px solid var(--gray-200)', paddingTop: '20px', marginTop: '8px' }}>
+                <h4 style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--forest)', marginBottom: '10px', fontFamily: 'var(--font-body)' }}>
+                  Important Instructions
+                </h4>
+                <ul style={{ paddingLeft: '20px', listStyleType: 'disc', color: 'var(--gray-500)', fontSize: '0.88rem', display: 'flex', flexDirection: 'column', gap: '8px', margin: 0 }}>
+                  <li>Please mention your preferred location (Saltlake, Dumdum, Nagerbazar, Lauhati, Newtown, etc.) when contacting.</li>
+                  <li>If you have relevant prescriptions, scans, or lab reports, please bring them along for your consultation.</li>
+                  <li>Direct phone calls are recommended for urgent consultations.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

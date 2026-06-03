@@ -58,15 +58,30 @@ export default function ClinicDetail() {
               </ul>
 
               <div className="info-box" style={{ background: 'var(--gray-50)', padding: '24px', borderRadius: 'var(--radius-md)' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                   <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', fontWeight: 700, color: 'var(--gold)', flexShrink: 0 }}>Loc.</div>
                   <div>
                     <h4 style={{ margin: 0, fontSize: '1rem' }}>Address</h4>
                     <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--gray-600)' }}>{clinic.address}</p>
                   </div>
                 </div>
-
               </div>
+
+              {clinic.phone && (
+                <div className="info-box" style={{ background: 'var(--gray-50)', padding: '24px', borderRadius: 'var(--radius-md)', marginTop: '16px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+                    <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', fontWeight: 700, color: 'var(--gold)', flexShrink: 0 }}>📞</div>
+                    <div>
+                      <h4 style={{ margin: 0, fontSize: '1rem' }}>Booking Helpline</h4>
+                      <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--gray-600)' }}>
+                        <a href={`tel:${clinic.phone.replace(/[^0-9+]/g, '')}`} style={{ color: 'var(--forest)', fontWeight: 600 }}>
+                          {clinic.phone}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div style={{ marginTop: '32px' }}>
                 <Link to="/contact" className="btn btn-primary btn-lg">

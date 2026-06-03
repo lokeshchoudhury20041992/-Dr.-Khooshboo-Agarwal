@@ -16,6 +16,17 @@ export default function Footer() {
               Serving patients across Salt Lake, Nagerbazar, Dum Dum, New Town,
               and the wider Kolkata metropolitan area.
             </p>
+            <div style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.9rem' }}>
+              <a href="tel:+919477595594" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: 'var(--white)', fontWeight: 600 }}>
+                📞 +91 94775 95594 (Main Helpline)
+              </a>
+              <a href="https://wa.me/919477595594" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: 'var(--white)', fontWeight: 600 }}>
+                💬 Message on WhatsApp
+              </a>
+              <span style={{ color: 'rgba(247, 245, 240, 0.5)', fontSize: '0.8rem' }}>
+                Mon - Sat: 8:00 AM - 8:00 PM
+              </span>
+            </div>
             <div className="footer-socials">
               <a href="https://www.instagram.com/gupshupwithyourgynaec/" target="_blank" rel="noopener noreferrer" className="footer-social-link" title="Instagram">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
@@ -64,12 +75,11 @@ export default function Footer() {
           <div className="footer-col">
             <h5>Associated Hospitals</h5>
             <div className="footer-links">
-              <span>IRM Kolkata</span>
-              <span>ILS Saltlake</span>
-              <span>ILS Nagerbazar</span>
-              <span>Care Hospital</span>
-              <span>Spandan Hospital</span>
-              <span>Suraksha Nagerbazar</span>
+              <span>Niramaya Diagnostics & Polyclinic</span>
+              <span>Life Care Nursing Home & Diagnostics</span>
+              <span>M.S. Polyclinic & Diagnostic Centre (M. G. Road)</span>
+              <span>Suraksha Diagnostics - Newtown</span>
+              <span>Care Genix Clinic & Diagnostics</span>
             </div>
           </div>
         </div>

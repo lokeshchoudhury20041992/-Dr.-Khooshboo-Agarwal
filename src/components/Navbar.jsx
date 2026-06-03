@@ -33,6 +33,9 @@ export default function Navbar() {
             <NavLink to="/fertility" onClick={close}>Fertility</NavLink>
             <NavLink to="/gynecology" onClick={close}>Gynecology</NavLink>
             <NavLink to="/surgeries" onClick={close}>Surgeries</NavLink>
+            <a href="tel:+919477595594" className="nav-phone-cta" onClick={close}>
+              📞 +91 94775 95594
+            </a>
             <NavLink to="/contact" className="nav-cta" onClick={close}>
               Contact Us
             </NavLink>
